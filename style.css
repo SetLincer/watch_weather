@@ -1,0 +1,89 @@
+.all {
+    background-color: rgb(242, 240, 240);
+}
+.leftmenu {
+   
+
+}
+.sidebar{
+      background: #e8ebf0;   
+  border-top-right-radius: 30px;
+       height: 720px;
+  width: 160px;
+}
+
+
+.cloud {
+}
+.cloud_inf {
+   
+      
+}
+
+
+
+.pages {
+   margin-left: 15px;
+   padding-top: 50px;
+   
+
+}
+.pages p {
+     font-weight: 550;
+      font-size: 18px;
+     letter-spacing: 0.5px;
+     color: rgb(80, 78, 78);
+     margin-bottom: 30px;
+    
+}
+.home {
+    
+}
+.home p{
+color: rgb(78, 114, 158)
+}
+.blogs {
+}
+.map {
+}
+.photos {
+}
+.video {
+}
+.pagers{
+
+}
+.contact {
+}
+
+
+
+.TOPmenu {
+    
+}
+.location_name {
+}
+.search {
+}
+.trash {
+}
+.central_inf {
+}
+.gradusi {
+}
+.scroll {
+}
+.mondey {
+}
+.tuesdey {
+}
+.wednesdey {
+}
+.thursday {
+}
+.friday {
+}
+.bottom_inf {
+}
+.right_menu {
+}
