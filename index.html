@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.scss">
 </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <body>
     <div class="all">
       <div class="sidebar">
@@ -47,22 +48,36 @@
       </div>
 
         <div class="TOPmenu">
-            <div class="location_name"></div>
-            <div class="search"></div>
-            <div class="trash"></div>
+            <div class="location_name"><p>Rivne,Ukraine</p></div>
+            <div class="search"><input type="text" id="weather-input" placeholder="Location name..."></div>
+            
+            <div class="trash">
+                
+            </div>
 
         </div>
 
         <div class="central_inf">
-            <div class="gradusi"></div>
-            <div class="scroll">
-                <div class="mondey"></div>
-                <div class="tuesdey"></div>
-                <div class="wednesdey"></div>
-                <div class="thursday"></div>
-                <div class="friday"></div>
+            
 
-            </div>
+          <div class="forecast-slider-window">
+             <div class="forecast-row">
+    <div class="day-card"><p>Monday</p><p>28</p></div>
+    <div class="day-card"><p>Tuesday</p><p>28</p></div>
+    <div class="day-card"><p>Wednesday</p><p>28</p></div>
+    <div class="day-card"><p>Thursday</p><p>28</p></div>
+    <div class="day-card"><p>Friday</p><p>28</p></div>
+
+    <div class="day-card"><p>Monday</p><p>28</p></div>
+    <div class="day-card"><p>Tuesday</p><p>28</p></div>
+    <div class="day-card"><p>Wednesday</p><p>28</p></div>
+    <div class="day-card"><p>Thursday</p><p>28</p></div>
+    <div class="day-card"><p>Friday</p><p>28</p></div>
+  </div>
+          </div>
+            
+
+            
         </div>
 
         <div class="bottom_inf">
@@ -70,12 +85,20 @@
         </div>
 
         <div class="right_menu">
-
+            
+         <div class="right_card">
+               <div class="weather_today">
+            
+                <div class="Name"><p>Rivne</p></div>
+                <div class="gradusi"><p>28</p></div>
+                <div class="weather"><p>Sunny</p></div>
+            </div>
+         </div>
         </div>
 
     </div>
   
 
-  <script src="scrypt.js"></script>
+  <script type="module" src="./script.js"></script>
 </body>
 </html>

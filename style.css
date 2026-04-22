@@ -1,89 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(209, 213, 213);
+}
+
 .all {
-    background-color: rgb(242, 240, 240);
+  display: flex;
 }
-.leftmenu {
-   
 
-}
-.sidebar{
-      background: #e8ebf0;   
+.sidebar {
+  background-color: rgb(221, 222, 222);
+  width: 150px;
+  height: 690px;
   border-top-right-radius: 30px;
-       height: 720px;
-  width: 160px;
+  border-bottom-right-radius: 30px;
 }
 
-
-.cloud {
-}
 .cloud_inf {
-   
-      
+  margin-left: 30px;
 }
-
-
 
 .pages {
-   margin-left: 15px;
-   padding-top: 50px;
-   
-
+  margin-left: 15px;
+  padding-top: 70px;
 }
 .pages p {
-     font-weight: 550;
-      font-size: 18px;
-     letter-spacing: 0.5px;
-     color: rgb(80, 78, 78);
-     margin-bottom: 30px;
-    
+  font-weight: 550;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  color: rgb(80, 78, 78);
+  margin-bottom: 35px;
 }
-.home {
-    
-}
-.home p{
-color: rgb(78, 114, 158)
-}
-.blogs {
-}
-.map {
-}
-.photos {
-}
-.video {
-}
-.pagers{
-
-}
-.contact {
+.pages :hover {
+  transform: scale(1);
+  color: #4a90e2;
 }
 
-
+.home p {
+  color: rgb(78, 114, 158);
+}
 
 .TOPmenu {
-    
+  position: fixed;
+  margin-left: 195px;
+  background-color: rgb(221, 222, 222);
+  height: 90px;
+  width: 1250px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
-.location_name {
+.TOPmenu .location_name {
+  margin-top: 35px;
+  margin-left: 50px;
 }
-.search {
+.TOPmenu .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(187, 181, 181);
+  width: 450px;
+  height: 43px;
+  margin-left: 430px;
+  margin-top: -30px;
+  padding: 0 18px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
 }
-.trash {
+.TOPmenu .search:focus-within {
+  background-color: #f0f0f0;
 }
-.central_inf {
-}
-.gradusi {
-}
-.scroll {
-}
-.mondey {
-}
-.tuesdey {
-}
-.wednesdey {
-}
-.thursday {
-}
-.friday {
-}
-.bottom_inf {
-}
-.right_menu {
-}
+.TOPmenu .search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}/*# sourceMappingURL=style.css.map */
