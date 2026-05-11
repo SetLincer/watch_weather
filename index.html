@@ -3,102 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Dashboard</title>
     <link rel="stylesheet" href="./style.scss">
-</head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
 <body>
     <div class="all">
-      <div class="sidebar">
-                  <div class="leftmenu">
-                    <div class="cloud">
-                        <a href="index.html" class="cloud_inf">
-  <svg width="75" height="80" viewBox="0 0 24 24">
-    <path fill="#4a90e2"
-      d="M19 18H6a4 4 0 010-8 5 5 0 019.7-1A3.5 3.5 0 1119 18z"/>
-  </svg>
-</a>
-                    </div>
-                    <div class="pages">
-                        <div class="home">
-                            <p>Home</p>
-                        </div>
-                        <div class="blogs">
-                            <p>Blogs</p>
-                        </div>
-                        <div class="map">
-                            <p>Map</p>
-                        </div>
-                        <div class="photos">
-                            <p>Photos</p>
-                        </div>
-                        <div class="video">
-                            <p>Video</p>
-                        </div>
-                        <div class="pagers">
-                            <p>Pages</p>
-                        </div>
-                        <div class="contact">
-                            <p>Contact</p>
-                        </div>
+        <aside class="sidebar">
+            <div class="cloud">
+                <a href="index.html" class="cloud_inf">
+                    <svg width="75" height="80" viewBox="0 0 24 24">
+                        <path fill="#4a90e2" d="M19 18H6a4 4 0 010-8 5 5 0 019.7-1A3.5 3.5 0 1119 18z"/>
+                    </svg>
+                </a>
+            </div>
+            <nav class="menu-list">
+                <div class="menu-item home"><img src="/img/home.png" alt="Home"><p>Home</p></div>
+                <div class="menu-item"><img src="./img/blog.png" alt="Blogs"><p>Blogs</p></div>
+                <div class="menu-item"><img src="img/image-.png" alt="Map"><p>Map</p></div>
+                <div class="menu-item"><img src="img/placeholder.png" alt="Photos"><p>Photos</p></div>
+                <div class="menu-item"><img src="img/play-button.png" alt="Video"><p>Video</p></div>
+                <div class="menu-item"><img src="img/page.png" alt="Pages"><p>Pages</p></div>
+                <div class="menu-item"><img src="img/phone.png" alt="Contact"><p>Contact</p></div>
+            </nav>
+        </aside>
 
-                    </div>
-
-        </div>
-      </div>
-
-        <div class="TOPmenu">
-            <div class="location_name"><p>Rivne,Ukraine</p></div>
-            <div class="search"><input type="text" id="weather-input" placeholder="Location name..."></div>
+        <main class="main-content">
             
-            <div class="trash">
+            <header class="TOPmenu">
+                <div class="location_name"><p>Rivne, Ukraine</p></div>
+                <div class="search">
+                 
+                    <input type="text" id="weather-input" placeholder="Location name...">
+                </div>
+                <div class="trash"></div>
+            </header>
+
+            <div class="content-body">
                 
-            </div>
 
-        </div>
+                <aside class="right_menu">
+                    <div class="right_card">
+                        <div class="weather_today">
+                            <div id="date" class="date">10th</div>
+                            <div id="city" class="Name"><p>Rivne</p></div>
+                            <div id="Gradusi" class="gradusi"><p>28</p></div>
+                            <div id="weather_icon" class="weather"><p>Sunny</p></div>
+                            <div  id="wind" class="wind">20s</div>
+                            
+                            <div class="sunny_img"><img src="./img/sunny.png" alt="Sunny"></div>
+                        </div>
+                    </div>
+                </aside>
 
-        <div class="central_inf">
-            
-
-          <div class="forecast-slider-window">
-             <div class="forecast-row">
-    <div class="day-card"><p>Monday</p><p>28</p></div>
-    <div class="day-card"><p>Tuesday</p><p>28</p></div>
-    <div class="day-card"><p>Wednesday</p><p>28</p></div>
-    <div class="day-card"><p>Thursday</p><p>28</p></div>
-    <div class="day-card"><p>Friday</p><p>28</p></div>
-
-    <div class="day-card"><p>Monday</p><p>28</p></div>
-    <div class="day-card"><p>Tuesday</p><p>28</p></div>
-    <div class="day-card"><p>Wednesday</p><p>28</p></div>
-    <div class="day-card"><p>Thursday</p><p>28</p></div>
-    <div class="day-card"><p>Friday</p><p>28</p></div>
-  </div>
-          </div>
-            
-
-            
-        </div>
-
-        <div class="bottom_inf">
-
-        </div>
-
-        <div class="right_menu">
-            
-         <div class="right_card">
-               <div class="weather_today">
-            
-                <div class="Name"><p>Rivne</p></div>
-                <div class="gradusi"><p>28</p></div>
-                <div class="weather"><p>Sunny</p></div>
-            </div>
-         </div>
-        </div>
-
+            </div> </main>
     </div>
-  
 
-  <script type="module" src="./script.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
